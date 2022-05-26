@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "lib": ["ES6"],
+    "removeComments": true,
+    "noUnusedLocals": true,
+    "outDir": "./lib",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "target": "es2017",
+    "baseUrl": ".",
+    "paths": {
+      "@controllers/*": ["./src/controllers/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@configs/*": ["./src/configs/*"],
+      "@middlewares/*": ["./src/middlewares/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
