@@ -4,7 +4,7 @@ import bodyParser from 'body-parser'
 import 'express-async-errors'
 
 import { HelloController } from '@controllers/HelloController'
-import middaleware from '@middlewares/default/handler'
+import middaleware from '@middlewares/Default/handler'
 
 const app = express()
 const router = Router()
