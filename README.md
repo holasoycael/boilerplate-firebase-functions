@@ -25,7 +25,7 @@ Follow the examples below example:
 `tsconfig.json`
 ```json
 {
-  // code ...
+  "__comment_above__": "code above for example...",
   "baseUrl": ".",
   "paths": {
     "@controllers/*": ["./src/controllers/*"],
@@ -36,8 +36,8 @@ Follow the examples below example:
     "@models/*": ["./src/models/*"],
     "@typings/*": ["./src/typings/*"],
     "@utils/*": ["./src/utils/*"]
-  }
-  // code ...
+  },
+  "__comment_below__": "code below for example...",
 }
 ```
 
