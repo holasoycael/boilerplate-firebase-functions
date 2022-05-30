@@ -70,7 +70,7 @@ Now the project is ready to use 🔥
 ### `Design architecture`
 
 ```
-`PROJECT`
+functions
 ├── .vscode
 │   └── settings.json
 ├── node_modules
@@ -84,18 +84,18 @@ Now the project is ready to use 🔥
 │   │   ├── Default
 │   │   │   ├── handle.ts
 │   │   │   └── store.ts
-│   │   └── `NAME`
+│   │   └── `PascalCase`
 │   │       ├── handle.ts
 │   │       └── store.ts
 │   ├── models
-│   │   └── `NAME`
+│   │   └── `PascalCase`
 │   │       └── index.ts
 │   ├── modules
 │   │   ├── auth.ts
 │   │   ├── firestore.ts
 │   │   └── realtime.ts
 │   ├── routes
-│   │   └── `Name`
+│   │   └── `PascalCase`
 │   │       └── index.tsx
 │   ├── tests
 │   ├── typing
