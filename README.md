@@ -1,19 +1,19 @@
 
 In your project folder use this to install:
 ```sh
-$ git clone https://github.com/holasoycael/boilerplate-firebase-functions.git . && rm -rf ./.git && git init && git branch -M main && git add . && git commit -m "Initial commit"
+git clone https://github.com/holasoycael/boilerplate-firebase-functions.git . && rm -rf ./.git && git init && git branch -M main && git add . && git commit -m "Initial commit"
 ```
 
 Now just add your remote repository ✨
 
 In the folder above functions use the command below to start the emulators:
 ```sh
-$ firebase emulators:start --import=./data --export-on-exit=./data
+firebase emulators:start --import=./data --export-on-exit=./data
 ```
 
 To listen for changes inside the VSCode use the command:
 ```sh
-$ yarn build --watch
+yarn build --watch
 ```
 
 ## Using Path Mapping
