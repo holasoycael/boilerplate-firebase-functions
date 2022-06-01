@@ -4,6 +4,9 @@
 lib/**/*.js
 lib/**/*.js.map
 
+# settings files
+serviceAccountKey.json
+
 # production
 /build
 /dist
@@ -24,4 +27,6 @@ node_modules/
 .env.test.local
 .env.production.local
 
+# lock files
 /yarn.lock
+/package-lock.json
