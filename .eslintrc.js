@@ -9,7 +9,6 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
-    'google',
     'plugin:@typescript-eslint/recommended',
     'prettier',
   ],
@@ -23,9 +22,8 @@ module.exports = {
   ],
   plugins: ['@typescript-eslint', 'import', 'prettier'],
   rules: {
-    'import/no-unresolved': false,
+    'import/no-unresolved': 0,
     'prettier/prettier': ['error'],
-    'require-jsdoc': false,
-    '@typescript-eslint/explicit-module-boundary-types': false,
+    'require-jsdoc': 0,
   },
 }
