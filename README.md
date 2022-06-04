@@ -1,3 +1,4 @@
+## 🌟 Getting Started
 
 In your project folder use this to install:
 ```sh
